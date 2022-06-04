@@ -1,0 +1,322 @@
+Unity Editor version:    2021.3.1f1 (3b70a0754835)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.4 (Build 21F79)
+Darwin version:          21.5.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Dev/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/BrightLand/Learn_NFT_With_Unity/NFT_With_Unity
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51315
+Successfully changed project path to: /Users/BrightLand/Learn_NFT_With_Unity/NFT_With_Unity
+/Users/BrightLand/Learn_NFT_With_Unity/NFT_With_Unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 100.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path /Applications/Dev/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/BrightLand/Learn_NFT_With_Unity/NFT_With_Unity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 5300M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5300M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
+Initialize mono
+Mono path[0] = '/Applications/Dev/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Dev/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Dev/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56811
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Dev/Unity/Hub/Editor/2021.3.1f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Dev/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Dev/Unity/Hub/Editor/2021.3.1f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Dev/Unity/Hub/Editor/2021.3.1f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.001394 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+[usbmuxd] Attached: 1 00008030-001115A00E23802E
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 94.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.843 seconds
+Domain Reload Profiling:
+	ReloadAssembly (843ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (613ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (140ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (372ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (97ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002418 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/BrightLand/Learn_NFT_With_Unity/NFT_With_Unity/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/BrightLand/Learn_NFT_With_Unity/NFT_With_Unity/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.486 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1488ms)
+		BeginReloadAssembly (260ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (143ms)
+		EndReloadAssembly (1081ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (364ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (463ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (301ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Dev/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3317 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (95.5 KB). Loaded Objects now: 3773.
+Memory consumption went from 237.1 MB to 237.0 MB.
+Total: 4.272258 ms (FindLiveObjects: 0.313874 ms CreateObjectMapping: 0.236125 ms MarkObjects: 3.564367 ms  DeleteObjects: 0.156721 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2426.585342 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.007520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.065921 seconds.
+  path: Assets/Web3Unity/Prefabs/ERC20/Decimals20.prefab
+  artifactKey: Guid(c6a938fc34c404b898a58e0acb951963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Web3Unity/Prefabs/ERC20/Decimals20.prefab using Guid(c6a938fc34c404b898a58e0acb951963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df85b7af484c341a7de09ad1d1a0235') in 1.041543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Web3Unity/Prefabs/ERC20/Symbol20.prefab
+  artifactKey: Guid(1f9c96708fbbb4f3fabf556db205376f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Web3Unity/Prefabs/ERC20/Symbol20.prefab using Guid(1f9c96708fbbb4f3fabf556db205376f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2769be74b9c476803f03df755a0cee67') in 0.007824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Web3Unity/Prefabs/ERC20/Name20.prefab
+  artifactKey: Guid(cd82a424db1364a89bb2de874eca0b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Web3Unity/Prefabs/ERC20/Name20.prefab using Guid(cd82a424db1364a89bb2de874eca0b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748110d983bf461e6c4b637aa3366eea') in 0.006791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.990728 seconds.
+  path: Assets/Web3Unity/Prefabs/Minter/MinterWebWallet.prefab
+  artifactKey: Guid(03151090bffb7124497532503b491565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Web3Unity/Prefabs/Minter/MinterWebWallet.prefab using Guid(03151090bffb7124497532503b491565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d2f67c91e2d18b9f6eb5f76d477615') in 0.024300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.496329 seconds.
+  path: Assets/Web3Unity/Prefabs/EVM/CreateContractData.prefab
+  artifactKey: Guid(196a40144ad0d4c42bb980407c567dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Web3Unity/Prefabs/EVM/CreateContractData.prefab using Guid(196a40144ad0d4c42bb980407c567dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b919e9954d97378fb83d86ff51754c9') in 0.004529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Web3Unity/Prefabs/EVM/CustomCall.prefab
+  artifactKey: Guid(cc4eb917252eb4747ab0c8954dedc712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Web3Unity/Prefabs/EVM/CustomCall.prefab using Guid(cc4eb917252eb4747ab0c8954dedc712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfe6d0003b4f150da98eae8421753d5') in 0.005208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.966138 seconds.
+  path: Assets/Web3Unity/Prefabs/Wallet/Sha3Example.prefab
+  artifactKey: Guid(73f535dbbf5e14cd6b2782dd0445cb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Web3Unity/Prefabs/Wallet/Sha3Example.prefab using Guid(73f535dbbf5e14cd6b2782dd0445cb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35762d80c4489e018c20aa8fefa56a7f') in 0.005210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Web3Unity/Prefabs/Wallet/Transfer1155ExampleCanvas.prefab
+  artifactKey: Guid(e684937d7b1844a5e90a5987cfbab615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Web3Unity/Prefabs/Wallet/Transfer1155ExampleCanvas.prefab using Guid(e684937d7b1844a5e90a5987cfbab615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6060f5506a46f725095c2e2a48e4f248') in 0.006109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Web3Unity/Prefabs/Wallet/Transfer20ExampleCanvas.prefab
+  artifactKey: Guid(f01f1cdeb7c1c484a8f7d4982f0be12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Web3Unity/Prefabs/Wallet/Transfer20ExampleCanvas.prefab using Guid(f01f1cdeb7c1c484a8f7d4982f0be12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763cbe4f1c3cd4b40f7bed96f2d43d52') in 0.004819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.418223 seconds.
+  path: Assets/Web3Unity/Prefabs/WebGL/Sha3.prefab
+  artifactKey: Guid(e6d1c21021aca9d4b909f756a5d874d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Web3Unity/Prefabs/WebGL/Sha3.prefab using Guid(e6d1c21021aca9d4b909f756a5d874d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73032486baf1751f2469c5d2ea7fb114') in 0.005915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Web3Unity/Prefabs/WebGL/WebGLSignOutCanvas.prefab
+  artifactKey: Guid(ab3c4e4b82ffe4633b68c8b05c476dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Web3Unity/Prefabs/WebGL/WebGLSignOutCanvas.prefab using Guid(ab3c4e4b82ffe4633b68c8b05c476dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41d45a0d4c8bf82bad5ece9652b5d9f') in 0.006604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Web3Unity/Prefabs/WebGL/Transfer721.prefab
+  artifactKey: Guid(f12787413a5a1493384c967219b49682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Web3Unity/Prefabs/WebGL/Transfer721.prefab using Guid(f12787413a5a1493384c967219b49682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c8cf56f5d228243db589a11d5f1fb6') in 0.008091 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002752 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/BrightLand/Learn_NFT_With_Unity/NFT_With_Unity/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/BrightLand/Learn_NFT_With_Unity/NFT_With_Unity/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.461 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1462ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1167ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (424ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (483ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (48ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3312 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (73.0 KB). Loaded Objects now: 3778.
+Memory consumption went from 243.9 MB to 243.8 MB.
+Total: 3.839644 ms (FindLiveObjects: 0.315318 ms CreateObjectMapping: 0.206051 ms MarkObjects: 3.216123 ms  DeleteObjects: 0.101142 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
