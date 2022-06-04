@@ -23,3 +23,4 @@ Used to set the network: https://chainlist.org/
 */
 
 window.web3ChainId = 4;
+window.web3NetWorkName = "rinkeby";
