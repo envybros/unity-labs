@@ -11,8 +11,8 @@ namespace Envy.Main
         private async UniTaskVoid Start()
         {
             Funcs.WriteLine("Entrance");
-            var result = await boxController.ScaleElastic(1);
-            Funcs.WriteLine($"Exit: {result}");
+            await boxController.ScaleElastic(1.5f);
+            Funcs.WriteLine("Exit");
         }
     }
 }

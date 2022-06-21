@@ -18,6 +18,8 @@ namespace Envy.Main.Module
 
         public async UniTask<int> ScaleElastic(float duration)
         {
+            await UniTask.Delay(TimeSpan.FromSeconds(.1f));
+
             Funcs.WriteLine("Act1 - ShakeScale");
             tr.localScale = Vector3.one;
 
@@ -45,7 +47,7 @@ namespace Envy.Main.Module
                 .SetEase(Ease.OutBack);
 
             Funcs.WriteLine("All Act End");
-            return 1;
+            return 0;
         }
     }
 }

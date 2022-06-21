@@ -53,7 +53,7 @@ namespace Samples.Purchasing.Core.LocalReceiptValidation
         {
             if (!HasTangleClasses())
             {
-                Debug.LogWarning(k_MissingTangleClassesWarningMsg);
+//                Debug.LogWarning(k_MissingTangleClassesWarningMsg);
             }
         }
 
