@@ -18,6 +18,13 @@ namespace Envy.Main
         {
             Funcs.WriteLine("Float Entrance");
             await UniTasks.Delay(TimeSpan.FromSeconds(5f)); // 5초
+
+            Funcs.WriteLine("Delay 100 Frame");
+            await UniTasks.DelayFrame(100); // 100 프레임
+
+            Funcs.WriteLine("Delay 1");
+            await UniTasks.DelayFrame(100); // 100 프레임
+
             return 1.0f;
         }
 
@@ -27,6 +34,11 @@ namespace Envy.Main
             Function().Forget(); // forget?
             var f = await FunctionFloat();
             Funcs.WriteLine($"Value => {f}");
+        }
+
+        public void Update()
+        {
+            
         }
     }
 }
