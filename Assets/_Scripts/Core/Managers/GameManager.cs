@@ -10,9 +10,9 @@ namespace Envy.Main
 
         private async UniTaskVoid Start()
         {
-            Funcs.WriteLine("Entrance");
+            Funcs.WriteLine("Entrance1");
             await boxController.ScaleElastic(1.5f);
-            Funcs.WriteLine("Exit");
+            Funcs.WriteLine("Exit2");
         }
     }
 }
