@@ -1,52 +1,18 @@
-using System;
-using System.Threading;
-using Cysharp.Threading.Tasks;
 using UnityEngine;
-using UnityEngine.UI;
+using Envy.Main.Module;
+using Cysharp.Threading.Tasks;
 
 namespace Envy.Main
 {
     public class GameManager : MonoBehaviour
     {
-        [SerializeField] private Button cancelButton;
-        [SerializeField] private Button disposeButton;
-        private CancellationTokenSource _cancellationTokenSource;
-
-        private void Awake()
-        {
-            _cancellationTokenSource = new CancellationTokenSource();
-            cancelButton.onClick.AddListener(CancelButton);
-            disposeButton.onClick.AddListener(DisposeButton);
-        }
+        [SerializeField] private BoxController boxController;
 
         private async UniTaskVoid Start()
         {
-            WhileTest();
-        }
-
-        private async UniTaskVoid WhileTest()
-        {
-            while (true)
-            {
-                await UniTask.Delay(TimeSpan.FromSeconds(0.5f),
-                    cancellationToken: _cancellationTokenSource.Token);
-                Funcs.WriteLine(Time.realtimeSinceStartup);
-            }
-        }
-
-        private void CancelButton()
-        {
-            _cancellationTokenSource.Cancel();
-        }
-
-        private void DisposeButton()
-        {
-            _cancellationTokenSource.Dispose();
-        }
-
-        private void OnDestroy()
-        {
-            Funcs.WriteLine("삭제됨");
+            Funcs.WriteLine("Entrance");
+            var result = await boxController.ScaleElastic(1);
+            Funcs.WriteLine($"Exit: {result}");
         }
     }
 }
